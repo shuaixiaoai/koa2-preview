@@ -1,6 +1,5 @@
 #### koa2
 
-22
 1、https://github.com/creationix/nvm nvm 管理 node 版本.  
 命令行安装`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
 

@@ -1,0 +1,28 @@
+{
+"name": "koa2-preview",
+"version": "1.0.0",
+"description": "balabala",
+"main": "index.js",
+"scripts": {
+"server": "nodemon server/index.js",
+"build": "rimraf dist && babel src -s -D -d dist --presets env",
+"production": "node dist",
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"author": "",
+"license": "ISC",
+"dependencies": {
+"babel-plugin-transform-runtime": "^6.23.0",
+"babel-runtime": "^6.26.0",
+"co": "^4.6.0",
+"koa": "^2.6.2",
+"koa-logger": "^3.2.0",
+"koa-session": "^5.10.0",
+"node-xlsx": "^0.12.1"
+},
+"devDependencies": {
+"babel-cli": "^6.26.0",
+"babel-preset-env": "^1.7.0",
+"rimraf": "^2.6.2"
+}
+}
